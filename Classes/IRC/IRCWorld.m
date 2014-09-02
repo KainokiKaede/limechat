@@ -222,7 +222,7 @@
         }
 
         for (IRCChannel* c in u.channels) {
-            if (c.isKeyword) {
+            if (c.isKeyword || c.isUnread) {
                 highlight = YES;
                 break;
             }
