@@ -8,6 +8,7 @@
 {
     int _myDividerThickness;
 }
+@synthesize hidden = _hidden;
 
 - (void)setUp
 {
